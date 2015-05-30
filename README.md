@@ -10,6 +10,8 @@ The goal of this level is for you to log into the game using SSH. The host to wh
     Username: bandit0
     Password: bandit0
 
+  ![capture 1](https://cloud.githubusercontent.com/assets/12673434/7897950/e0a0e61a-070d-11e5-97ce-fc060436325a.JPG)
+
 ###Bandit - Level 1###
 
 The password for the next level is stored in a file called **readme** located in the home directory. Use this password to log into **bandit1** using SSH. Whenever you find a password for a level, use SSH to log into that level and continue the game.
@@ -30,7 +32,7 @@ When cat sees the string **-** as a **filename**, it treats it as a synonym for 
 
 The password for the next level is stored in a file called spaces in this **filename** located in the home directory.
 
-In a shell/command line context, wrap the **filename** in single or double quotes (but note they are not the same WRT other issues), or escape the spaces with \. 
+In a shell/command line context, wrap the **filename** in single or double quotes (but note they are not the same WRT other issues), or escape the spaces with **"\"**. 
 
 
 > e.g:	foo my\ file\ with\ spaces\ in\ the\ name
